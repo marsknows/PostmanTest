@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "7a930a7a-8442-4061-91c9-d0b8eafea96e",
+		"name": "GoogleAPIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36257290"
+	},
+	"item": [
+		{
+			"name": "SearchGoogle",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.google.com/?q=Santa Clara",
+					"protocol": "https",
+					"host": [
+						"www",
+						"google",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Santa Clara"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
